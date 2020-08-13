@@ -1,0 +1,101 @@
+{
+	"BitcoinOTC/soc-sign-bitcoinotc.csv": {
+		"sep": ",",
+		"comment": "%",
+		"min_node": 1,
+		"subsample": false,
+		"max_removals": 100,
+		"samples": 4,
+		"avg_size": 200
+	},
+	"BitcoinAlpha/soc-sign-bitcoinalpha/out.soc-sign-bitcoinalpha": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": false,
+		"max_removals": 100,
+		"samples": 4,
+		"avg_size": 200
+	},
+	"Chess/chess/out.chess": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": false,
+		"max_removals": 100,
+		"samples": 4,
+		"avg_size": 200
+	},
+	"Cloister/moreno_sampson/out.moreno_sampson_sampson": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": false,
+		"max_removals": 1,
+		"samples": 4,
+		"avg_size": 200
+	},
+	"Congress/convote/out.convote": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": false,
+		"max_removals": 1,
+		"samples": 4,
+		"avg_size": 200
+	},
+	"Epinions/soc-sign-epinions.txt": {
+		"sep": null,
+		"comment": "#",
+		"min_node": 0,
+		"subsample": true,
+		"max_removals": 100,
+		"samples": 1000,
+		"avg_size": 200
+	},
+	"HighlandTribes/ucidata-gama/out.ucidata-gama": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": false,
+		"max_removals": 1,
+		"samples": 4,
+		"avg_size": 200
+	},
+	"Slashdot/soc-sign-Slashdot090221.txt": {
+		"sep": null,
+		"comment": "#",
+		"min_node": 0,
+		"subsample": true,
+		"max_removals": 100,
+		"samples": 1000,
+		"avg_size": 200
+	},
+	"WikiConflict/wikiconflict/out.wikiconflict": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": true,
+		"max_removals": 100,
+		"samples": 1000,
+		"avg_size": 200
+	},
+	"WikipediaElections/elec/out.elec": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": false,
+		"max_removals": 100,
+		"samples": 4,
+		"avg_size": 200
+	},
+	"WikiPolitics/wikisigned-k2/out.wikisigned-k2": {
+		"sep": null,
+		"comment": "%",
+		"min_node": 1,
+		"subsample": true,
+		"max_removals": 100,
+		"samples": 4,
+		"avg_size": 200
+	}
+}
