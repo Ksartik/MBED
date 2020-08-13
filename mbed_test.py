@@ -81,7 +81,7 @@ def mbed_select (method, A, budgets, S, verbose, dataset_name):
     elif (method == "nonspec"):
         res_info, S_new, A_d, edges_removed = mbed_nonSpectral(A, budgets, S, randomize=False, verbose=verbose)
     elif (method == "spec_iter"):
-        res_info, S_new, A_d, edges_removed = mbed_spec_iter(A, budgets, S, verbose=verbose, randomize=False, batch_size=batch_size)
+        res_info, S_new, A_d, edges_removed = mbed_spec_iter(A, budgets, S, verbose=verbose, randomize=False)
     elif (method == "spec_top"):
         res_info, S_new, A_d, edges_removed = mbed_spec_top(A, budgets, S, verbose=verbose)
     elif (method == "rand_cand"):
@@ -126,7 +126,6 @@ else:
 verbose = args.verbose
 replace = args.replace
 only_h0 = args.only_h0
-batch_size = args.batch if (args.batch is not None) else 1
 # if (os.path.exists("Results/")):
 #     os.mkdir("Results/")
 
