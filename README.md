@@ -1,4 +1,4 @@
-# Maximizing balance by edge deletion
+# Balance Maximization in Signed Networks via Edge Deletions
 Supplementary code for the work by the same name submitted to WSDM 2021.
 
 # Data & tools
