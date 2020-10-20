@@ -46,9 +46,9 @@ Now, the results will be appended to another file named **results_kcores.csv**. 
 
 The following files are used for making plots:
 
-1. `anal.py`: makes quality plots (and optionally time plots) when varying budget.
-2. `anal_kcore.py`: compares the increase in balance with different values of k. 
-3. `anal_largeB.py`: We use separate codes for large and small budgets. Here we use the percentage of edges deleted when a large budget was chosen. 
+1. `analysis.py`: makes quality plots (and optionally time plots) when varying budget.
+2. `analysis_kcore.py`: compares the increase in balance with different values of k. 
+3. `analysis_largeB.py`: We use separate codes for large and small budgets. Here we use the percentage of edges deleted when a large budget was chosen. 
 
 # Visualization
 
